@@ -1,0 +1,193 @@
+header{
+    background-image: url(../img/header-bg.png);
+    height: 800px;
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+h1, nav h2{
+    display: none;
+}
+
+nav ul{
+    font-family: 'Wendy One', sans-serif;
+}
+
+#example-menu,
+#example-menu .top-bar-left > ul,
+#example-menu .top-bar-right > ul > li > a{
+    background-color: #1f0a5d;
+    color: #fff;
+}
+
+header img{
+    width: 300px;
+    border-radius: 150px;
+}
+
+header .intro{
+    margin-top: 100px;
+}
+
+header .intro p{
+    font-family: 'Wendy One', sans-serif;
+    font-size: 50px;
+}
+
+header .intro span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#services{
+    background-color: #1f0a5d;
+    color: #fff;
+    text-align: center;
+    padding: 40px; 0;
+}
+
+#services > h2,
+#portfolio > h2{
+    text-align: center;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 54px;
+    padding: 40px 0;
+}
+
+#services i{
+    font-size: 120px;
+    padding: 30px 0;
+}
+
+#about{
+    padding: 40px 0;
+}
+
+#about .media-object{
+    text-align: center;
+}
+
+#about .media-object img{
+    width: 200px;
+    text-align: center;
+}
+
+#about .text-content{
+   font-family: 'Roboto', sans-serif; 
+}
+
+#about .text-content h4{
+    font-family: 'Wendy One', sans-serif;
+    text-align: center;
+    font-size: 32px;
+}
+
+#about > h2{
+    display: none;
+}
+
+#about .color{
+    background-color: #1f0a5d;
+    color: #fff;
+}
+
+#about .hero{
+    padding: 80px 0;
+    text-align: center;
+}
+
+#portfolio{
+    background-color: #1f0a5d;
+    color: #fff;
+    padding: 40px 0;
+}
+
+#portfolio .callout.project{
+    background-color: #1f0a5d;
+    color: #fff;
+    text-align: center;
+    border: none;
+}
+
+#portfolio .callout.project img{
+    width: 200px;
+    border-radius: 100px;
+
+}
+
+#portfolio .project p{
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;  
+}
+
+#portfolio .project span{
+    font-size: 34px;
+    font-family: 'Wendy One', sans-serif;
+    padding-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+}
+
+footer .footer-info p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.footer-info{
+    background-image: url(../img/header-bg.png);
+}
+
+.row.footer-info{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer h4{
+    font-family: 'Wendy One', sans-serif;
+}
+
+footer .footer-info{
+    padding-top: 80px;
+    color: #fff;
+}
+
+footer .social-media .fa{
+    padding: 0 8px;
+    color: #fff;
+}
+
+.footer-info i{
+    font-size: 62px;
+    padding-bottom: 18px;
+}
+
+footer .copyright{
+    background-color: #1f0a5d;
+    padding-top: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width: 639px){
+    header .intro p{
+        font-size: 32px;
+    }
+    div.title-bar{
+        background-color: #1f0a5d;
+    }
+}
+
+@media(max-width: 1023px){
+    #about div.large-6.columns.media-object img{
+        margin-top: 25px;
+    }
+}
